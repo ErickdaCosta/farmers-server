@@ -1,11 +1,6 @@
 const express = require('express');
 const app = express();
 
-const mockData = [
-    {
-
-    }
-]
 
 app.get(`/`, (req, res) => {
 
